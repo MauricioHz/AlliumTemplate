@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,6 +10,7 @@
     <!--  CSS (including Bootstrap) -->
     <link type="text/css" href="assets/css/theme.min.css" rel="stylesheet">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <a class="navbar-brand" href="#"></a>
@@ -26,29 +28,52 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Link beta</a>
                 </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link nav-link-icon" href="#" id="navbar_1_dropdown_3" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Compras
+                    </a>
+                    <div class="dropdown-menu">
+                        <h6 class="dropdown-header">User menu</h6>
+                        <a class="dropdown-item" href="#">
+                            <span class="float-right badge badge-primary">4</span>
+                            <svg class="svg-inline--fa fa-envelope fa-w-16 text-primary" aria-hidden="true" data-prefix="fas" data-icon="envelope" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor" d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path>
+                            </svg>
+                            <!-- <i class="fas fa-envelope text-primary"></i> -->Messages
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <svg class="svg-inline--fa fa-cog fa-w-16 text-primary" aria-hidden="true" data-prefix="fas" data-icon="cog" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor" d="M444.788 291.1l42.616 24.599c4.867 2.809 7.126 8.618 5.459 13.985-11.07 35.642-29.97 67.842-54.689 94.586a12.016 12.016 0 0 1-14.832 2.254l-42.584-24.595a191.577 191.577 0 0 1-60.759 35.13v49.182a12.01 12.01 0 0 1-9.377 11.718c-34.956 7.85-72.499 8.256-109.219.007-5.49-1.233-9.403-6.096-9.403-11.723v-49.184a191.555 191.555 0 0 1-60.759-35.13l-42.584 24.595a12.016 12.016 0 0 1-14.832-2.254c-24.718-26.744-43.619-58.944-54.689-94.586-1.667-5.366.592-11.175 5.459-13.985L67.212 291.1a193.48 193.48 0 0 1 0-70.199l-42.616-24.599c-4.867-2.809-7.126-8.618-5.459-13.985 11.07-35.642 29.97-67.842 54.689-94.586a12.016 12.016 0 0 1 14.832-2.254l42.584 24.595a191.577 191.577 0 0 1 60.759-35.13V25.759a12.01 12.01 0 0 1 9.377-11.718c34.956-7.85 72.499-8.256 109.219-.007 5.49 1.233 9.403 6.096 9.403 11.723v49.184a191.555 191.555 0 0 1 60.759 35.13l42.584-24.595a12.016 12.016 0 0 1 14.832 2.254c24.718 26.744 43.619 58.944 54.689 94.586 1.667 5.366-.592 11.175-5.459 13.985L444.788 220.9a193.485 193.485 0 0 1 0 70.2zM336 256c0-44.112-35.888-80-80-80s-80 35.888-80 80 35.888 80 80 80 80-35.888 80-80z"></path>
+                            </svg>
+                            <!-- <i class="fas fa-cog text-primary"></i> -->Settings
+                        </a>
+                        <div class="dropdown-divider" role="presentation"></div>
+                        <a class="dropdown-item" href="#">
+                            <svg class="svg-inline--fa fa-sign-out-alt fa-w-16 text-primary" aria-hidden="true" data-prefix="fas" data-icon="sign-out-alt"
+                                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor" d="M497 273L329 441c-15 15-41 4.5-41-17v-96H152c-13.3 0-24-10.7-24-24v-96c0-13.3 10.7-24 24-24h136V88c0-21.4 25.9-32 41-17l168 168c9.3 9.4 9.3 24.6 0 34zM192 436v-40c0-6.6-5.4-12-12-12H96c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32h84c6.6 0 12-5.4 12-12V76c0-6.6-5.4-12-12-12H96c-53 0-96 43-96 96v192c0 53 43 96 96 96h84c6.6 0 12-5.4 12-12z"></path>
+                            </svg>
+                            <!-- <i class="fas fa-sign-out-alt text-primary"></i> -->Sign out
+                        </a>
+                    </div>
+                </li>
                 <li class="nav-item">
-                        <a class="nav-link" href="#">Link gama</a>
-                    </li>                
-                    <li class="nav-item dropdown show">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbar_1_dropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="true">Dropdown</a>
-                            <div class="dropdown-menu show" aria-labelledby="navbar_1_dropdown_1">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </li>
-                    <li class="nav-item dropdown show">
+                    <a class="nav-link" href="#">Link gama</a>
+                </li>
+                <li class="nav-item dropdown show">
                     <a class="nav-link dropdown-toggle" href="#" id="navbar_1_dropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="true">Dropdown2</a>
-                    <div class="dropdown-menu show" aria-labelledby="navbar_1_dropdown_1">
+                        aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="navbar_1_dropdown_1">
                         <a class="dropdown-item" href="#">Action</a>
                         <a class="dropdown-item" href="#">Another action</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                 </li>
+
                 <li class="nav-item">
                     <a class="nav-link disabled" href="#">Disabled</a>
                 </li>
@@ -152,6 +177,7 @@
                         </a>
                     </div>
                 </li>
+
             </ul>
         </div>
     </nav>
@@ -217,151 +243,155 @@
                                 Reprehenderit butcher retro keffiyeh dreamcatcher synth.</p>
                         </div>
                         <div class="tab-pane fade" id="tabs_2_1_2" role="tabpanel" aria-labelledby="home2-tab">
-                                <form class="needs-validation" novalidate="">
-                                        <div class="row">
-                                          <div class="col-md-6 mb-3">
-                                            <label for="firstName">First name</label>
-                                            <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
-                                            <div class="invalid-feedback">
-                                              Valid first name is required.
-                                            </div>
-                                          </div>
-                                          <div class="col-md-6 mb-3">
-                                            <label for="lastName">Last name</label>
-                                            <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
-                                            <div class="invalid-feedback">
-                                              Valid last name is required.
-                                            </div>
-                                          </div>
+                            <form class="needs-validation" novalidate="">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="firstName">First name</label>
+                                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                                        <div class="invalid-feedback">
+                                            Valid first name is required.
                                         </div>
-                            
-                                        <div class="mb-3">
-                                          <label for="username">Username</label>
-                                          <div class="input-group">
-                                            <div class="input-group-prepend">
-                                              <span class="input-group-text">@</span>
-                                            </div>
-                                            <input type="text" class="form-control" id="username" placeholder="Username" required="">
-                                            <div class="invalid-feedback" style="width: 100%;">
-                                              Your username is required.
-                                            </div>
-                                          </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="lastName">Last name</label>
+                                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                                        <div class="invalid-feedback">
+                                            Valid last name is required.
                                         </div>
-                            
-                                        <div class="mb-3">
-                                          <label for="email">Email <span class="text-muted">(Optional)</span></label>
-                                          <input type="email" class="form-control" id="email" placeholder="you@example.com">
-                                          <div class="invalid-feedback">
-                                            Please enter a valid email address for shipping updates.
-                                          </div>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="username">Username</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">@</span>
                                         </div>
-                            
-                                        <div class="mb-3">
-                                          <label for="address">Address</label>
-                                          <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
-                                          <div class="invalid-feedback">
-                                            Please enter your shipping address.
-                                          </div>
+                                        <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                                        <div class="invalid-feedback" style="width: 100%;">
+                                            Your username is required.
                                         </div>
-                            
-                                        <div class="mb-3">
-                                          <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
-                                          <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="email">Email
+                                        <span class="text-muted">(Optional)</span>
+                                    </label>
+                                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                                    <div class="invalid-feedback">
+                                        Please enter a valid email address for shipping updates.
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="address">Address</label>
+                                    <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                                    <div class="invalid-feedback">
+                                        Please enter your shipping address.
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="address2">Address 2
+                                        <span class="text-muted">(Optional)</span>
+                                    </label>
+                                    <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-5 mb-3">
+                                        <label for="country">Country</label>
+                                        <select class="custom-select d-block w-100" id="country" required="">
+                                            <option value="">Choose...</option>
+                                            <option>United States</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            Please select a valid country.
                                         </div>
-                            
-                                        <div class="row">
-                                          <div class="col-md-5 mb-3">
-                                            <label for="country">Country</label>
-                                            <select class="custom-select d-block w-100" id="country" required="">
-                                              <option value="">Choose...</option>
-                                              <option>United States</option>
-                                            </select>
-                                            <div class="invalid-feedback">
-                                              Please select a valid country.
-                                            </div>
-                                          </div>
-                                          <div class="col-md-4 mb-3">
-                                            <label for="state">State</label>
-                                            <select class="custom-select d-block w-100" id="state" required="">
-                                              <option value="">Choose...</option>
-                                              <option>California</option>
-                                            </select>
-                                            <div class="invalid-feedback">
-                                              Please provide a valid state.
-                                            </div>
-                                          </div>
-                                          <div class="col-md-3 mb-3">
-                                            <label for="zip">Zip</label>
-                                            <input type="text" class="form-control" id="zip" placeholder="" required="">
-                                            <div class="invalid-feedback">
-                                              Zip code required.
-                                            </div>
-                                          </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <label for="state">State</label>
+                                        <select class="custom-select d-block w-100" id="state" required="">
+                                            <option value="">Choose...</option>
+                                            <option>California</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid state.
                                         </div>
-                                        <hr class="mb-4">
-                                        <div class="custom-control custom-checkbox">
-                                          <input type="checkbox" class="custom-control-input" id="same-address">
-                                          <label class="custom-control-label" for="same-address">Shipping address is the same as my billing address</label>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <label for="zip">Zip</label>
+                                        <input type="text" class="form-control" id="zip" placeholder="" required="">
+                                        <div class="invalid-feedback">
+                                            Zip code required.
                                         </div>
-                                        <div class="custom-control custom-checkbox">
-                                          <input type="checkbox" class="custom-control-input" id="save-info">
-                                          <label class="custom-control-label" for="save-info">Save this information for next time</label>
+                                    </div>
+                                </div>
+                                <hr class="mb-4">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="same-address">
+                                    <label class="custom-control-label" for="same-address">Shipping address is the same as my billing address</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="save-info">
+                                    <label class="custom-control-label" for="save-info">Save this information for next time</label>
+                                </div>
+                                <hr class="mb-4">
+
+                                <h4 class="mb-3">Payment</h4>
+
+                                <div class="d-block my-3">
+                                    <div class="custom-control custom-radio">
+                                        <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked="" required="">
+                                        <label class="custom-control-label" for="credit">Credit card</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required="">
+                                        <label class="custom-control-label" for="debit">Debit card</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required="">
+                                        <label class="custom-control-label" for="paypal">PayPal</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="cc-name">Name on card</label>
+                                        <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                                        <small class="text-muted">Full name as displayed on card</small>
+                                        <div class="invalid-feedback">
+                                            Name on card is required
                                         </div>
-                                        <hr class="mb-4">
-                            
-                                        <h4 class="mb-3">Payment</h4>
-                            
-                                        <div class="d-block my-3">
-                                          <div class="custom-control custom-radio">
-                                            <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked="" required="">
-                                            <label class="custom-control-label" for="credit">Credit card</label>
-                                          </div>
-                                          <div class="custom-control custom-radio">
-                                            <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required="">
-                                            <label class="custom-control-label" for="debit">Debit card</label>
-                                          </div>
-                                          <div class="custom-control custom-radio">
-                                            <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required="">
-                                            <label class="custom-control-label" for="paypal">PayPal</label>
-                                          </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="cc-number">Credit card number</label>
+                                        <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                                        <div class="invalid-feedback">
+                                            Credit card number is required
                                         </div>
-                                        <div class="row">
-                                          <div class="col-md-6 mb-3">
-                                            <label for="cc-name">Name on card</label>
-                                            <input type="text" class="form-control" id="cc-name" placeholder="" required="">
-                                            <small class="text-muted">Full name as displayed on card</small>
-                                            <div class="invalid-feedback">
-                                              Name on card is required
-                                            </div>
-                                          </div>
-                                          <div class="col-md-6 mb-3">
-                                            <label for="cc-number">Credit card number</label>
-                                            <input type="text" class="form-control" id="cc-number" placeholder="" required="">
-                                            <div class="invalid-feedback">
-                                              Credit card number is required
-                                            </div>
-                                          </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3 mb-3">
+                                        <label for="cc-expiration">Expiration</label>
+                                        <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                                        <div class="invalid-feedback">
+                                            Expiration date required
                                         </div>
-                                        <div class="row">
-                                          <div class="col-md-3 mb-3">
-                                            <label for="cc-expiration">Expiration</label>
-                                            <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
-                                            <div class="invalid-feedback">
-                                              Expiration date required
-                                            </div>
-                                          </div>
-                                          <div class="col-md-3 mb-3">
-                                            <label for="cc-cvv">CVV</label>
-                                            <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
-                                            <div class="invalid-feedback">
-                                              Security code required
-                                            </div>
-                                          </div>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <label for="cc-cvv">CVV</label>
+                                        <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+                                        <div class="invalid-feedback">
+                                            Security code required
                                         </div>
-                                        <hr class="mb-4">
-                                        <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
-                                      </form>
-                            </div>                        
+                                    </div>
+                                </div>
+                                <hr class="mb-4">
+                                <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+                            </form>
+                        </div>
                         <div class="tab-pane fade" id="tabs_2_2" role="tabpanel" aria-labelledby="profile-tab">
                             <p>Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum
                                 iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
@@ -377,27 +407,182 @@
         </div>
 
         <div class="card mb-4">
-                <div class="card-body py-3">
-                    <div class="row row-grid align-items-center">
-                        <div class="col-sm-8">
-                            <div class="media align-items-center">
-                                    <i class="fab fa-connectdevelop fa-2x avatar avatar-lg"></i>
-                                <!--<img src="../assets/img/prv/team-1-800x800.jpg" class="avatar avatar-lg mr-3">-->
-                                <div class="media-body">
-                                    <h5 class="font-weight-300 mb-0">Heather Wright</h5>
-                                    <a href="#" class="font-weight-700">Change avatar</a>
-                                </div>
+            <div class="card-body py-3">
+                <div class="row row-grid align-items-center">
+                    <div class="col-sm-8">
+                        <div class="media align-items-center">
+                            <i class="fab fa-connectdevelop fa-2x avatar avatar-lg"></i>
+                            <!--<img src="../assets/img/prv/team-1-800x800.jpg" class="avatar avatar-lg mr-3">-->
+                            <div class="media-body">
+                                <h5 class="font-weight-300 mb-0">Heather Wright</h5>
+                                <a href="#" class="font-weight-700">Change avatar</a>
                             </div>
                         </div>
-                        <div class="col-sm-4 mt-4 mt-sm-0 text-sm-right">
-                            <a href="#" class="btn btn-sm btn-primary btn-circle btn-icon shadow">
-                                <span class="btn-inner--icon"><svg class="svg-inline--fa fa-user-tie fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm95.8 32.6L272 480l-32-136 32-56h-96l32 56-32 136-47.8-191.4C56.9 292 0 350.3 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z"></path></svg><!-- <i class="fas fa-user-tie"></i> --></span>
-                                <span class="btn-inner--text">Upgrade to Pro</span>
-                            </a>
+                    </div>
+                    <div class="col-sm-4 mt-4 mt-sm-0 text-sm-right">
+                        <a href="#" class="btn btn-sm btn-primary btn-circle btn-icon shadow">
+                            <span class="btn-inner--icon">
+                                <svg class="svg-inline--fa fa-user-tie fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="user-tie" role="img" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512" data-fa-i2svg="">
+                                    <path fill="currentColor" d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm95.8 32.6L272 480l-32-136 32-56h-96l32 56-32 136-47.8-191.4C56.9 292 0 350.3 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z"></path>
+                                </svg>
+                                <!-- <i class="fas fa-user-tie"></i> -->
+                            </span>
+                            <span class="btn-inner--text">Upgrade to Pro</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-8">
+ 
+        
+        <form id="datos" action="" method="POST">
+            <div class="mb-4">
+                <div class="mb-4">
+                    <h5 class="mb-1">Address details</h5>
+                    <p class="text-muted mb-0">Fill in your address info for upcoming orders or payments.</p>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label class="sr-only">Address</label>
+                            <input class="form-control" id="direccion" name="direccion" placeholder="Address Line 1" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="sr-only">City</label>
+                            <input class="form-control" id="ciudad" placeholder="City" type="text">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="sr-only">Last name</label>
+                            <div class="btn-group bootstrap-select">
+                                <button type="button" class="btn dropdown-toggle bs-placeholder btn-default" data-toggle="dropdown"
+                                    role="button" title="Country">
+                                    <span class="filter-option pull-left">Country</span>&nbsp;
+                                    <span class="bs-caret">
+                                        <span class="caret"></span>
+                                    </span>
+                                </button>
+                                <div class="dropdown-menu open" role="combobox">
+                                    <div class="bs-searchbox">
+                                        <input class="form-control" id="pais" autocomplete="off" placeholder="Country" role="textbox" aria-label="Search"
+                                            type="text">
+                                    </div>
+                                    <ul class="dropdown-menu inner" role="listbox" aria-expanded="false">
+                                        <li data-original-index="1">
+                                            <a tabindex="0" class="dropdown-item " data-tokens="null" role="option" aria-disabled="false"
+                                                aria-selected="false">
+                                                <span class="text">Alerts</span>
+                                                <span class="check-mark">
+                                                    <svg class="svg-inline--fa fa-check fa-w-16" aria-hidden="true" data-prefix="fas"
+                                                        data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                                        data-fa-i2svg="">
+                                                        <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
+                                                    </svg>
+                                                    <!-- <i class="fas fa-check"></i> -->
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li data-original-index="2">
+                                            <a tabindex="0" class="dropdown-item " data-tokens="null" role="option" aria-disabled="false"
+                                                aria-selected="false">
+                                                <span class="text">Badges</span>
+                                                <span class="check-mark">
+                                                    <svg class="svg-inline--fa fa-check fa-w-16" aria-hidden="true" data-prefix="fas"
+                                                        data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                                        data-fa-i2svg="">
+                                                        <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
+                                                    </svg>
+                                                    <!-- <i class="fas fa-check"></i> -->
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li data-original-index="3">
+                                            <a tabindex="0" class="dropdown-item " data-tokens="null" role="option" aria-disabled="false"
+                                                aria-selected="false">
+                                                <span class="text">Buttons</span>
+                                                <span class="check-mark">
+                                                    <svg class="svg-inline--fa fa-check fa-w-16" aria-hidden="true" data-prefix="fas"
+                                                        data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                                        data-fa-i2svg="">
+                                                        <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
+                                                    </svg>
+                                                    <!-- <i class="fas fa-check"></i> -->
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li data-original-index="4">
+                                            <a tabindex="0" class="dropdown-item " data-tokens="null" role="option" aria-disabled="false"
+                                                aria-selected="false">
+                                                <span class="text">Cards</span>
+                                                <span class="check-mark">
+                                                    <svg class="svg-inline--fa fa-check fa-w-16" aria-hidden="true" data-prefix="fas"
+                                                        data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                                        data-fa-i2svg="">
+                                                        <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
+                                                    </svg>
+                                                    <!-- <i class="fas fa-check"></i> -->
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li data-original-index="5">
+                                            <a tabindex="0" class="dropdown-item " data-tokens="null" role="option" aria-disabled="false"
+                                                aria-selected="false">
+                                                <span class="text">Forms</span>
+                                                <span class="check-mark">
+                                                    <svg class="svg-inline--fa fa-check fa-w-16" aria-hidden="true" data-prefix="fas"
+                                                        data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                                        data-fa-i2svg="">
+                                                        <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
+                                                    </svg>
+                                                    <!-- <i class="fas fa-check"></i> -->
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li data-original-index="6">
+                                            <a tabindex="0" class="dropdown-item " data-tokens="null" role="option" aria-disabled="false"
+                                                aria-selected="false">
+                                                <span class="text">Modals</span>
+                                                <span class="check-mark">
+                                                    <svg class="svg-inline--fa fa-check fa-w-16" aria-hidden="true" data-prefix="fas"
+                                                        data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                                        data-fa-i2svg="">
+                                                        <path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
+                                                    </svg>
+                                                    <!-- <i class="fas fa-check"></i> -->
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <select class="selectpicker" title="Country" data-live-search="true" data-live-search-placeholder="Country"
+                                    tabindex="-98">
+                                    <option class="bs-title-option" value="">Country</option>
+                                    <option>Alerts</option>
+                                    <option>Badges</option>
+                                    <option>Buttons</option>
+                                    <option>Cards</option>
+                                    <option>Forms</option>
+                                    <option>Modals</option>
+                                </select>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div>
+                <button type="submit" class="btn btn-sm btn-primary">Save changes</button>
+                <button type="button" class="btn btn-link">Cancel</button>
+            </div>
+        </form>  
+        </div>
 
     </div>
 
@@ -411,6 +596,8 @@
 
     <!--  JS -->
     <script src="assets/js/theme.min.js"></script>
+
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>
